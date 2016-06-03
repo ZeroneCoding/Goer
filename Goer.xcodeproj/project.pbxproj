@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE21D8321CF6EF450027C603 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21D8311CF6EF450027C603 /* LoginViewController.m */; };
+		BE295DAD1CF9383F00665F6F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE295DAB1CF9383F00665F6F /* ChatViewController.m */; };
+		BE295DAE1CF9383F00665F6F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE295DAC1CF9383F00665F6F /* ChatViewController.xib */; };
+		BE4890141D01C12000851A3A /* personInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4890131D01C12000851A3A /* personInfo.png */; };
+		BE4890171D01C19600851A3A /* planlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4890151D01C19600851A3A /* planlogo.png */; };
+		BE4890181D01C19600851A3A /* settinglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4890161D01C19600851A3A /* settinglogo.png */; };
+		BE6319D51CFA8BEF0006909B /* user_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6319D41CFA8BEF0006909B /* user_logo.png */; };
+		BE6D3DF71CFDBA7B0025C271 /* weather_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6D3DF61CFDBA7B0025C271 /* weather_icon.png */; };
+		BE6D3DFA1CFDBE000025C271 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6D3DF91CFDBE000025C271 /* WeatherModel.m */; };
+		BE7A0DD41CF5731E0098474D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7A0DD31CF5731E0098474D /* LoginViewController.xib */; };
+		BE86023D1CF53CEA00BEADC1 /* UsersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE86023C1CF53CEA00BEADC1 /* UsersModel.m */; };
+		BE86024B1CF54BD200BEADC1 /* cm2_blogo_yixin.png in Resources */ = {isa = PBXBuildFile; fileRef = BE86023F1CF54BD200BEADC1 /* cm2_blogo_yixin.png */; };
+		BE86024C1CF54BD200BEADC1 /* cm2_blogo_yixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602401CF54BD200BEADC1 /* cm2_blogo_yixin@2x.png */; };
+		BE86024D1CF54BD200BEADC1 /* cm2_blogo_yixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602411CF54BD200BEADC1 /* cm2_blogo_yixin@3x.png */; };
+		BE86024E1CF54BD200BEADC1 /* cm2_blogo_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602421CF54BD200BEADC1 /* cm2_blogo_qq.png */; };
+		BE86024F1CF54BD200BEADC1 /* cm2_blogo_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602431CF54BD200BEADC1 /* cm2_blogo_qq@2x.png */; };
+		BE8602501CF54BD200BEADC1 /* cm2_blogo_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602441CF54BD200BEADC1 /* cm2_blogo_qq@3x.png */; };
+		BE8602511CF54BD200BEADC1 /* cm2_blogo_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602451CF54BD200BEADC1 /* cm2_blogo_weixin.png */; };
+		BE8602521CF54BD200BEADC1 /* cm2_blogo_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602461CF54BD200BEADC1 /* cm2_blogo_weixin@2x.png */; };
+		BE8602531CF54BD200BEADC1 /* cm2_blogo_weixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602471CF54BD200BEADC1 /* cm2_blogo_weixin@3x.png */; };
+		BE8602541CF54BD200BEADC1 /* cm2_blogo_sina@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602481CF54BD200BEADC1 /* cm2_blogo_sina@3x.png */; };
+		BE8602551CF54BD200BEADC1 /* cm2_blogo_sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8602491CF54BD200BEADC1 /* cm2_blogo_sina@2x.png */; };
+		BE8602561CF54BD200BEADC1 /* cm2_blogo_sina.png in Resources */ = {isa = PBXBuildFile; fileRef = BE86024A1CF54BD200BEADC1 /* cm2_blogo_sina.png */; };
+		BE8AC8591CF86BEB0061F160 /* MyDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AC8581CF86BEB0061F160 /* MyDrawerViewController.m */; };
+		BE8AC85D1CF86CFA0061F160 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8AC85A1CF86CFA0061F160 /* sky.jpg */; };
+		BE8AC85E1CF86CFA0061F160 /* sky@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8AC85B1CF86CFA0061F160 /* sky@2x.jpg */; };
+		BE8AC85F1CF86CFA0061F160 /* sky@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8AC85C1CF86CFA0061F160 /* sky@3x.jpg */; };
+		BE8AC8631CF870AE0061F160 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8AC8611CF870AE0061F160 /* RootViewController.m */; };
+		BE8AC8641CF870AE0061F160 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8AC8621CF870AE0061F160 /* RootViewController.xib */; };
+		BEEF74771CF80E320020B24D /* JVFloatingDrawerSpringAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF74721CF80E320020B24D /* JVFloatingDrawerSpringAnimator.m */; };
+		BEEF74781CF80E320020B24D /* JVFloatingDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF74741CF80E320020B24D /* JVFloatingDrawerView.m */; };
+		BEEF74791CF80E320020B24D /* JVFloatingDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF74761CF80E320020B24D /* JVFloatingDrawerViewController.m */; };
+		BEEF747D1CF811CF0020B24D /* LeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF747B1CF811CF0020B24D /* LeftDrawerViewController.m */; };
+		BEEF747E1CF811CF0020B24D /* LeftDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEF747C1CF811CF0020B24D /* LeftDrawerViewController.xib */; };
+		BEEF74821CF812070020B24D /* RightDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF74801CF812070020B24D /* RightDrawerViewController.m */; };
+		BEEF74831CF812070020B24D /* RightDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEF74811CF812070020B24D /* RightDrawerViewController.xib */; };
 		BEF3FC831CF4704C0081170B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FC821CF4704C0081170B /* main.m */; };
 		BEF3FC861CF4704D0081170B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FC851CF4704D0081170B /* AppDelegate.m */; };
 		BEF3FC891CF4704D0081170B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FC881CF4704D0081170B /* ViewController.m */; };
@@ -15,6 +51,8 @@
 		BEF3FC911CF4704D0081170B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF3FC8F1CF4704D0081170B /* LaunchScreen.storyboard */; };
 		BEF3FC9C1CF4704D0081170B /* GoerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FC9B1CF4704D0081170B /* GoerTests.m */; };
 		BEF3FCA71CF4704D0081170B /* GoerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3FCA61CF4704D0081170B /* GoerUITests.m */; };
+		BEF99BD81CFD5A3E00536CBC /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF99BD61CFD5A3E00536CBC /* list.png */; };
+		BEF99BD91CFD5A3E00536CBC /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF99BD71CFD5A3E00536CBC /* weather.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +73,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE21D8301CF6EF450027C603 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BE21D8311CF6EF450027C603 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BE295DAA1CF9383F00665F6F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		BE295DAB1CF9383F00665F6F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		BE295DAC1CF9383F00665F6F /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		BE4890131D01C12000851A3A /* personInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personInfo.png; sourceTree = "<group>"; };
+		BE4890151D01C19600851A3A /* planlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planlogo.png; sourceTree = "<group>"; };
+		BE4890161D01C19600851A3A /* settinglogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settinglogo.png; sourceTree = "<group>"; };
+		BE6319D41CFA8BEF0006909B /* user_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_logo.png; sourceTree = "<group>"; };
+		BE6D3DF61CFDBA7B0025C271 /* weather_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather_icon.png; sourceTree = "<group>"; };
+		BE6D3DF81CFDBE000025C271 /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		BE6D3DF91CFDBE000025C271 /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		BE7A0DD31CF5731E0098474D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BE86023B1CF53CEA00BEADC1 /* UsersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersModel.h; sourceTree = "<group>"; };
+		BE86023C1CF53CEA00BEADC1 /* UsersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersModel.m; sourceTree = "<group>"; };
+		BE86023F1CF54BD200BEADC1 /* cm2_blogo_yixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_blogo_yixin.png; sourceTree = "<group>"; };
+		BE8602401CF54BD200BEADC1 /* cm2_blogo_yixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_yixin@2x.png"; sourceTree = "<group>"; };
+		BE8602411CF54BD200BEADC1 /* cm2_blogo_yixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_yixin@3x.png"; sourceTree = "<group>"; };
+		BE8602421CF54BD200BEADC1 /* cm2_blogo_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_blogo_qq.png; sourceTree = "<group>"; };
+		BE8602431CF54BD200BEADC1 /* cm2_blogo_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_qq@2x.png"; sourceTree = "<group>"; };
+		BE8602441CF54BD200BEADC1 /* cm2_blogo_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_qq@3x.png"; sourceTree = "<group>"; };
+		BE8602451CF54BD200BEADC1 /* cm2_blogo_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_blogo_weixin.png; sourceTree = "<group>"; };
+		BE8602461CF54BD200BEADC1 /* cm2_blogo_weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_weixin@2x.png"; sourceTree = "<group>"; };
+		BE8602471CF54BD200BEADC1 /* cm2_blogo_weixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_weixin@3x.png"; sourceTree = "<group>"; };
+		BE8602481CF54BD200BEADC1 /* cm2_blogo_sina@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_sina@3x.png"; sourceTree = "<group>"; };
+		BE8602491CF54BD200BEADC1 /* cm2_blogo_sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm2_blogo_sina@2x.png"; sourceTree = "<group>"; };
+		BE86024A1CF54BD200BEADC1 /* cm2_blogo_sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_blogo_sina.png; sourceTree = "<group>"; };
+		BE8AC8571CF86BEB0061F160 /* MyDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDrawerViewController.h; sourceTree = "<group>"; };
+		BE8AC8581CF86BEB0061F160 /* MyDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDrawerViewController.m; sourceTree = "<group>"; };
+		BE8AC85A1CF86CFA0061F160 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		BE8AC85B1CF86CFA0061F160 /* sky@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sky@2x.jpg"; sourceTree = "<group>"; };
+		BE8AC85C1CF86CFA0061F160 /* sky@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sky@3x.jpg"; sourceTree = "<group>"; };
+		BE8AC8601CF870AE0061F160 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BE8AC8611CF870AE0061F160 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BE8AC8621CF870AE0061F160 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BEEF74701CF80E320020B24D /* JVFloatingDrawerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerAnimation.h; sourceTree = "<group>"; };
+		BEEF74711CF80E320020B24D /* JVFloatingDrawerSpringAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerSpringAnimator.h; sourceTree = "<group>"; };
+		BEEF74721CF80E320020B24D /* JVFloatingDrawerSpringAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerSpringAnimator.m; sourceTree = "<group>"; };
+		BEEF74731CF80E320020B24D /* JVFloatingDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerView.h; sourceTree = "<group>"; };
+		BEEF74741CF80E320020B24D /* JVFloatingDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerView.m; sourceTree = "<group>"; };
+		BEEF74751CF80E320020B24D /* JVFloatingDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerViewController.h; sourceTree = "<group>"; };
+		BEEF74761CF80E320020B24D /* JVFloatingDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerViewController.m; sourceTree = "<group>"; };
+		BEEF747A1CF811CF0020B24D /* LeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerViewController.h; sourceTree = "<group>"; };
+		BEEF747B1CF811CF0020B24D /* LeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerViewController.m; sourceTree = "<group>"; };
+		BEEF747C1CF811CF0020B24D /* LeftDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftDrawerViewController.xib; sourceTree = "<group>"; };
+		BEEF747F1CF812070020B24D /* RightDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDrawerViewController.h; sourceTree = "<group>"; };
+		BEEF74801CF812070020B24D /* RightDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDrawerViewController.m; sourceTree = "<group>"; };
+		BEEF74811CF812070020B24D /* RightDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightDrawerViewController.xib; sourceTree = "<group>"; };
 		BEF3FC7E1CF4704C0081170B /* Goer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF3FC821CF4704C0081170B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEF3FC841CF4704D0081170B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +137,8 @@
 		BEF3FCA21CF4704D0081170B /* GoerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF3FCA61CF4704D0081170B /* GoerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoerUITests.m; sourceTree = "<group>"; };
 		BEF3FCA81CF4704D0081170B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF99BD61CFD5A3E00536CBC /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		BEF99BD71CFD5A3E00536CBC /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +166,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE86023E1CF54B4A00BEADC1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE4890131D01C12000851A3A /* personInfo.png */,
+				BE4890151D01C19600851A3A /* planlogo.png */,
+				BE4890161D01C19600851A3A /* settinglogo.png */,
+				BE6D3DF61CFDBA7B0025C271 /* weather_icon.png */,
+				BE6319D41CFA8BEF0006909B /* user_logo.png */,
+				BEF99BD61CFD5A3E00536CBC /* list.png */,
+				BEF99BD71CFD5A3E00536CBC /* weather.png */,
+				BE8AC85A1CF86CFA0061F160 /* sky.jpg */,
+				BE8AC85B1CF86CFA0061F160 /* sky@2x.jpg */,
+				BE8AC85C1CF86CFA0061F160 /* sky@3x.jpg */,
+				BE86023F1CF54BD200BEADC1 /* cm2_blogo_yixin.png */,
+				BE8602401CF54BD200BEADC1 /* cm2_blogo_yixin@2x.png */,
+				BE8602411CF54BD200BEADC1 /* cm2_blogo_yixin@3x.png */,
+				BE8602421CF54BD200BEADC1 /* cm2_blogo_qq.png */,
+				BE8602431CF54BD200BEADC1 /* cm2_blogo_qq@2x.png */,
+				BE8602441CF54BD200BEADC1 /* cm2_blogo_qq@3x.png */,
+				BE8602451CF54BD200BEADC1 /* cm2_blogo_weixin.png */,
+				BE8602461CF54BD200BEADC1 /* cm2_blogo_weixin@2x.png */,
+				BE8602471CF54BD200BEADC1 /* cm2_blogo_weixin@3x.png */,
+				BE8602481CF54BD200BEADC1 /* cm2_blogo_sina@3x.png */,
+				BE8602491CF54BD200BEADC1 /* cm2_blogo_sina@2x.png */,
+				BE86024A1CF54BD200BEADC1 /* cm2_blogo_sina.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BEEF746F1CF80E050020B24D /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				BEEF74701CF80E320020B24D /* JVFloatingDrawerAnimation.h */,
+				BEEF74711CF80E320020B24D /* JVFloatingDrawerSpringAnimator.h */,
+				BEEF74721CF80E320020B24D /* JVFloatingDrawerSpringAnimator.m */,
+				BEEF74731CF80E320020B24D /* JVFloatingDrawerView.h */,
+				BEEF74741CF80E320020B24D /* JVFloatingDrawerView.m */,
+				BEEF74751CF80E320020B24D /* JVFloatingDrawerViewController.h */,
+				BEEF74761CF80E320020B24D /* JVFloatingDrawerViewController.m */,
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
 		BEF3FC751CF4704C0081170B = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +232,31 @@
 		BEF3FC801CF4704C0081170B /* Goer */ = {
 			isa = PBXGroup;
 			children = (
+				BEEF746F1CF80E050020B24D /* Drawer */,
+				BE86023E1CF54B4A00BEADC1 /* Images */,
 				BEF3FC841CF4704D0081170B /* AppDelegate.h */,
 				BEF3FC851CF4704D0081170B /* AppDelegate.m */,
+				BE86023B1CF53CEA00BEADC1 /* UsersModel.h */,
+				BE86023C1CF53CEA00BEADC1 /* UsersModel.m */,
+				BE6D3DF81CFDBE000025C271 /* WeatherModel.h */,
+				BE6D3DF91CFDBE000025C271 /* WeatherModel.m */,
+				BE21D8301CF6EF450027C603 /* LoginViewController.h */,
+				BE21D8311CF6EF450027C603 /* LoginViewController.m */,
+				BE7A0DD31CF5731E0098474D /* LoginViewController.xib */,
+				BE8AC8571CF86BEB0061F160 /* MyDrawerViewController.h */,
+				BE8AC8581CF86BEB0061F160 /* MyDrawerViewController.m */,
+				BEEF747A1CF811CF0020B24D /* LeftDrawerViewController.h */,
+				BEEF747B1CF811CF0020B24D /* LeftDrawerViewController.m */,
+				BEEF747C1CF811CF0020B24D /* LeftDrawerViewController.xib */,
+				BEEF747F1CF812070020B24D /* RightDrawerViewController.h */,
+				BEEF74801CF812070020B24D /* RightDrawerViewController.m */,
+				BEEF74811CF812070020B24D /* RightDrawerViewController.xib */,
+				BE8AC8601CF870AE0061F160 /* RootViewController.h */,
+				BE8AC8611CF870AE0061F160 /* RootViewController.m */,
+				BE8AC8621CF870AE0061F160 /* RootViewController.xib */,
+				BE295DAA1CF9383F00665F6F /* ChatViewController.h */,
+				BE295DAB1CF9383F00665F6F /* ChatViewController.m */,
+				BE295DAC1CF9383F00665F6F /* ChatViewController.xib */,
 				BEF3FC871CF4704D0081170B /* ViewController.h */,
 				BEF3FC881CF4704D0081170B /* ViewController.m */,
 				BEF3FC8A1CF4704D0081170B /* Main.storyboard */,
@@ -246,9 +400,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8AC85D1CF86CFA0061F160 /* sky.jpg in Resources */,
+				BEEF747E1CF811CF0020B24D /* LeftDrawerViewController.xib in Resources */,
+				BE295DAE1CF9383F00665F6F /* ChatViewController.xib in Resources */,
+				BE8602531CF54BD200BEADC1 /* cm2_blogo_weixin@3x.png in Resources */,
+				BE8AC8641CF870AE0061F160 /* RootViewController.xib in Resources */,
+				BE8602511CF54BD200BEADC1 /* cm2_blogo_weixin.png in Resources */,
+				BE8AC85F1CF86CFA0061F160 /* sky@3x.jpg in Resources */,
+				BE8602501CF54BD200BEADC1 /* cm2_blogo_qq@3x.png in Resources */,
+				BE86024E1CF54BD200BEADC1 /* cm2_blogo_qq.png in Resources */,
+				BE7A0DD41CF5731E0098474D /* LoginViewController.xib in Resources */,
+				BE8602541CF54BD200BEADC1 /* cm2_blogo_sina@3x.png in Resources */,
 				BEF3FC911CF4704D0081170B /* LaunchScreen.storyboard in Resources */,
+				BE4890141D01C12000851A3A /* personInfo.png in Resources */,
+				BE6D3DF71CFDBA7B0025C271 /* weather_icon.png in Resources */,
+				BE4890171D01C19600851A3A /* planlogo.png in Resources */,
+				BE4890181D01C19600851A3A /* settinglogo.png in Resources */,
+				BE8602551CF54BD200BEADC1 /* cm2_blogo_sina@2x.png in Resources */,
 				BEF3FC8E1CF4704D0081170B /* Assets.xcassets in Resources */,
+				BE86024D1CF54BD200BEADC1 /* cm2_blogo_yixin@3x.png in Resources */,
+				BE86024B1CF54BD200BEADC1 /* cm2_blogo_yixin.png in Resources */,
+				BEF99BD81CFD5A3E00536CBC /* list.png in Resources */,
+				BE8602521CF54BD200BEADC1 /* cm2_blogo_weixin@2x.png in Resources */,
+				BE8AC85E1CF86CFA0061F160 /* sky@2x.jpg in Resources */,
+				BE86024F1CF54BD200BEADC1 /* cm2_blogo_qq@2x.png in Resources */,
+				BEEF74831CF812070020B24D /* RightDrawerViewController.xib in Resources */,
 				BEF3FC8C1CF4704D0081170B /* Main.storyboard in Resources */,
+				BE86024C1CF54BD200BEADC1 /* cm2_blogo_yixin@2x.png in Resources */,
+				BE6319D51CFA8BEF0006909B /* user_logo.png in Resources */,
+				BEF99BD91CFD5A3E00536CBC /* weather.png in Resources */,
+				BE8602561CF54BD200BEADC1 /* cm2_blogo_sina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +456,18 @@
 			files = (
 				BEF3FC891CF4704D0081170B /* ViewController.m in Sources */,
 				BEF3FC861CF4704D0081170B /* AppDelegate.m in Sources */,
+				BEEF74821CF812070020B24D /* RightDrawerViewController.m in Sources */,
+				BEEF74771CF80E320020B24D /* JVFloatingDrawerSpringAnimator.m in Sources */,
+				BE86023D1CF53CEA00BEADC1 /* UsersModel.m in Sources */,
+				BE8AC8591CF86BEB0061F160 /* MyDrawerViewController.m in Sources */,
+				BEEF747D1CF811CF0020B24D /* LeftDrawerViewController.m in Sources */,
+				BEEF74781CF80E320020B24D /* JVFloatingDrawerView.m in Sources */,
 				BEF3FC831CF4704C0081170B /* main.m in Sources */,
+				BE8AC8631CF870AE0061F160 /* RootViewController.m in Sources */,
+				BEEF74791CF80E320020B24D /* JVFloatingDrawerViewController.m in Sources */,
+				BE295DAD1CF9383F00665F6F /* ChatViewController.m in Sources */,
+				BE6D3DFA1CFDBE000025C271 /* WeatherModel.m in Sources */,
+				BE21D8321CF6EF450027C603 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +693,7 @@
 				BEF3FCAD1CF4704D0081170B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF3FCAE1CF4704D0081170B /* Build configuration list for PBXNativeTarget "GoerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +702,7 @@
 				BEF3FCB01CF4704D0081170B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF3FCB11CF4704D0081170B /* Build configuration list for PBXNativeTarget "GoerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +711,7 @@
 				BEF3FCB31CF4704D0081170B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

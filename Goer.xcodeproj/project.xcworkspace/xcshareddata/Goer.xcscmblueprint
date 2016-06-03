@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DAB89CD449F8FBCE72EDEA0732CB87DF57C922D6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A" : 0,
+    "DAB89CD449F8FBCE72EDEA0732CB87DF57C922D6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DC89FBC4-57E3-429A-9DA7-A20FBABDEEAA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A" : "",
+    "DAB89CD449F8FBCE72EDEA0732CB87DF57C922D6" : "Goer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Goer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Goer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeroneCoding\/Vchat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeroneCoding\/Goer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DAB89CD449F8FBCE72EDEA0732CB87DF57C922D6"
+    }
+  ]
+}
