@@ -7,8 +7,21 @@
 //
 
 #import "RightDrawerViewController.h"
+#import "AFNetworking.h"
+#import "Define.h"
+#import "WeatherModel.h"
 
 @interface RightDrawerViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *weatherIconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *cityNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
+@property (weak, nonatomic) IBOutlet UILabel *windLabel;
+@property (weak, nonatomic) IBOutlet UILabel *winpLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *weekLabel;
+@property (weak, nonatomic) IBOutlet UITableView *nextWeatherTableView;
+- (IBAction)refreshBtnClick:(id)sender;
 
 @end
 
@@ -16,22 +29,58 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self getWeatherDateFromURL:WEATHER_URL];
+    
+    //[self configDataToUI];
 }
+
+- (void)getWeatherDateFromURL:(NSString *)url {
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    [manager GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSLog(@"res %@", responseObject);
+        [self analyseDataWith:responseObject];
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error %@", error);
+    }];
+}
+
+- (void)analyseDataWith:(NSDictionary *)responseObject {
+
+    NSArray *weatherAarray = [responseObject objectForKey:@"result"];
+    
+    _daysAarray = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i < weatherAarray.count; i ++) {
+        WeatherModel *wm = [[WeatherModel alloc] init];
+        
+        wm.days = [weatherAarray[i] objectForKey:@"days"];
+        wm.week = [weatherAarray[i] objectForKey:@"week"];
+        wm.cityName = [weatherAarray[i] objectForKey:@"citynm"];
+        wm.temperature = [weatherAarray[i] objectForKey:@"temperature"];
+        wm.weatherInfo = [weatherAarray[i] objectForKey:@"weather"];
+        wm.icon = [weatherAarray[i] objectForKey:@"weather_icon"];
+        wm.wind = [weatherAarray[i] objectForKey:@"wind"];
+        wm.winp = [weatherAarray[i] objectForKey:@"winp"];
+        
+        [_daysAarray addObject:wm];
+    }
+}
+
+- (void)configDataToUI {
+
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)refreshBtnClick:(id)sender {
 }
-*/
-
 @end
